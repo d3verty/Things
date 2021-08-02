@@ -5,6 +5,7 @@ using UnityEngine;
 public class LiftButton : Usable {
     public GameObject lift;
     public int floor;
+    /*
     public override void Start()
     {
         base.Start();
@@ -14,4 +15,5 @@ public class LiftButton : Usable {
     {
         lift.GetComponent<LiftScript>().MoveToFloor(floor);
     }
+    */
 }

@@ -19,6 +19,7 @@ public class Car : Usable {
     public Color headLightsColor;
     private bool lightsOn;
     // Use this for initialization
+    /*
     public override void Start()
     {
         base.Start();
@@ -74,4 +75,5 @@ public class Car : Usable {
         }
         receiveInput = true;
     }
+    */
 }

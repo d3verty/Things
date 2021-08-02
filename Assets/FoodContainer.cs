@@ -22,6 +22,7 @@ public class FoodContainer : Usable
     {
         
     }
+    /*
     public override void Use(GameObject player)
     {
         if (count > 0)
@@ -31,4 +32,5 @@ public class FoodContainer : Usable
          //   textMesh.text = "Potato " + count.ToString();
         }
     }
+    */
 }

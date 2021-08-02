@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class DoorScript : Usable {
+    /*
     public override void Start()
     {
         base.Start();
@@ -12,4 +13,5 @@ public class DoorScript : Usable {
     {
         GetComponent<Animator>().SetTrigger("Use");
     }
+    */
 }
