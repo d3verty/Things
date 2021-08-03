@@ -4,11 +4,6 @@ using UnityEngine;
 
 public static class Game
 {
-    public enum SupplyType
-    {
-        CoffeeBeans,
-        Milk
-    };
     public enum DoObject { Furnace, Huy };
     public class Food
     {

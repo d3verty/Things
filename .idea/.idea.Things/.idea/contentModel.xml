@@ -412,6 +412,12 @@
             <e p="OutlineScript.cs" t="Include" />
           </e>
         </e>
+        <e p="Resources" t="Include">
+          <e p="GameData" t="Include">
+            <e p="Ingredient.cs" t="Include" />
+            <e p="Receipt.cs" t="Include" />
+          </e>
+        </e>
         <e p="Restaurant.cs" t="Include" />
         <e p="RoadArchitect-master" t="Include">
           <e p="Editor" t="Include">
@@ -512,7 +518,7 @@
           <e p="BulletScript.cs" t="Include" />
           <e p="CameraLock.cs" t="Include" />
           <e p="Car.cs" t="Include" />
-          <e p="Container.cs" t="Include" />
+          <e p="CoffeeMachine.cs" t="Include" />
           <e p="DoorScript.cs" t="Include" />
           <e p="EditorScripts" t="Include">
             <e p="AddNPCComponents.cs" t="Include" />
@@ -524,10 +530,14 @@
           <e p="LiftDoor.cs" t="Include" />
           <e p="LiftIndicators.cs" t="Include" />
           <e p="LiftScript.cs" t="Include" />
+          <e p="LiquidParticlesController.cs" t="Include" />
+          <e p="Nozzle.cs" t="Include" />
           <e p="PlayerScript.cs" t="Include" />
           <e p="Road.cs" t="Include" />
           <e p="RoadEditor.cs" t="Include" />
           <e p="SecurityCamera.cs" t="Include" />
+          <e p="SupplyContainer.cs" t="Include" />
+          <e p="SupplyPackage.cs" t="Include" />
           <e p="TestTrigger.cs" t="Include" />
           <e p="TrafficLesson" t="Include">
             <e p="CharacterNavigationController.cs" t="Include" />
@@ -584,7 +594,6 @@
             </e>
           </e>
         </e>
-        <e p="SupplyPackage.cs" t="Include" />
         <e p="TextAwaiter.cs" t="Include" />
         <e p="TextMesh Pro" t="Include">
           <e p="Fonts" t="Include">

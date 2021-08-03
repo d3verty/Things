@@ -5,15 +5,15 @@ using UnityEngine;
 
 public class SupplyPackage : MonoBehaviour
 {
-    private Container container;
-    public Container Container
+    private SupplyContainer _supplyContainer;
+    public SupplyContainer supplyContainer
     {
-        get => container;
+        get => _supplyContainer;
         set
         {
-            container = value;
+            _supplyContainer = value;
             StopAllCoroutines();
-            StartCoroutine(RotatingPackage(container == null));
+            StartCoroutine(RotatingPackage(_supplyContainer == null));
         }
     }
 
@@ -24,7 +24,7 @@ public class SupplyPackage : MonoBehaviour
     private Coroutine pouringOutCoroutine;
     private GameObject progressBar;
     private float maxProgressBarScale;
-    public Game.SupplyType supplyType;
+    public Ingredient supply;
 
     private void Start()
     {
@@ -61,20 +61,20 @@ public class SupplyPackage : MonoBehaviour
 
     IEnumerator PouringOutPackage()
     {
-        while (Container != null)
+        while (supplyContainer != null)
         {
             float grams = Mathf.Clamp(Mathf.Clamp(pouringOutSpeed * Time.fixedDeltaTime, 0, currentGrams), 0,
-                container.capacity - container.currentGrams);
+                supplyContainer.capacity - supplyContainer.currentGrams);
             currentGrams -= grams;
-            container.currentGrams += grams;
+            supplyContainer.currentGrams += grams;
             progressBar.transform.localScale = new Vector3(maxProgressBarScale * currentGrams / capacity, progressBar.transform.localScale.y, progressBar.transform.localScale.z);
-            if (container.currentGrams == container.capacity)
+            if (supplyContainer.currentGrams == supplyContainer.capacity)
             {
-                Container = null;
+                supplyContainer = null;
             }
             if (currentGrams == 0)
             {
-                Container = null;
+                supplyContainer = null;
             }
             yield return new WaitForFixedUpdate();
         }

@@ -31,7 +31,6 @@
       <Path>LocalPackages</Path>
       <Path>Logs</Path>
       <Path>RoadArchitect</Path>
-      <Path>Temp</Path>
       <Path>UserSettings</Path>
       <Path>obj</Path>
     </explicitExcludes>
