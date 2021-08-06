@@ -14,6 +14,14 @@
                     "interactions": ""
                 },
                 {
+                    "name": "RightClick",
+                    "type": "Button",
+                    "id": "a1dee981-5128-49db-bdad-4eddf1a562cf",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
                     "name": "Move",
                     "type": "Value",
                     "id": "ffe03d94-9db5-45f1-82cd-457e8276b65b",
@@ -105,6 +113,17 @@
                     "processors": "",
                     "groups": "Keyboard and Mouse",
                     "action": "LeftClick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1cbf1204-4108-4a33-bd9b-7c0cdd7f9aab",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard and Mouse",
+                    "action": "RightClick",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

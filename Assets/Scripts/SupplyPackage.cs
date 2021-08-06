@@ -25,12 +25,15 @@ public class SupplyPackage : MonoBehaviour
     private GameObject progressBar;
     private float maxProgressBarScale;
     public Ingredient supply;
+    private Pickable pickable;
 
-    private void Start()
+    private void Awake()
     {
         currentGrams = capacity;
         progressBar = transform.GetChild(0).GetChild(0).gameObject;
         maxProgressBarScale = progressBar.transform.localScale.x;
+        pickable = gameObject.AddComponent<Pickable>();
+        pickable.Init();
     }
 
     IEnumerator RotatingPackage(bool reverse)
@@ -53,10 +56,12 @@ public class SupplyPackage : MonoBehaviour
             yield return new WaitForFixedUpdate();
         }
         transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles.x, transform.rotation.eulerAngles.y, needAngle);
+        /*
         if (currentGrams == 0)
         {
             Destroy(this);
         }
+        */
     }
 
     IEnumerator PouringOutPackage()
@@ -75,6 +80,7 @@ public class SupplyPackage : MonoBehaviour
             if (currentGrams == 0)
             {
                 supplyContainer = null;
+                Destroy(this);
             }
             yield return new WaitForFixedUpdate();
         }

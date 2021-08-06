@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Espresso
   m_EditorClassIdentifier: 
   icon: {fileID: 21300000, guid: 9ca1877e7b9018746a95c81fc9c12990, type: 3}
-  ingredientsWithCount:
+  ingredientsAmount:
   - ingredient: {fileID: 11400000, guid: f2f02f55d06d7e044879ba13de39aaf7, type: 2}
     ml: 30

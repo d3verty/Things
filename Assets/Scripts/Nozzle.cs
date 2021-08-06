@@ -4,16 +4,20 @@ using UnityEngine;
 
 public class Nozzle : MonoBehaviour
 {
-    [SerializeField] private Ingredient ingredient;
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private SupplyContainer supplyContainer;
+    public Cup targetCup;
+    public void Open()
     {
-        
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Close()
+    {
+        StopAllCoroutines();
+    }
+    /*
+    IEnumerator PouringOut()
     {
         
     }
+    */
 }

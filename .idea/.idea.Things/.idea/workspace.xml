@@ -47,21 +47,23 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/People.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EditorScripts/AddPedestrianComponents.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SupplyPackage.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/51E7BA98-5B03-449F-A807-CF0C6504869C/b2/9f44296f/ParticleSystem.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Azure[Sky] Dynamic Skybox/Scripts/AzureWeatherController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Azure[Sky] Dynamic Skybox/Scripts/AzureWeatherZone.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TrafficLesson/CharacterNavigationController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Resources/GameData/Receipt.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SupplyContainer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TextAwaiter.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoffeeMachine.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/FoodContainer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4A29708C-EE65-4AC0-ACA1-6C9D5624806A/18/bcad00d7/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TrafficLesson/WaypointEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/People.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoffeeMachine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SupplyContainer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TextAwaiter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Unity Projects/Things/Assets/Scripts/CoffeeMachine.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TrafficLesson/CharacterNavigationController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4A29708C-EE65-4AC0-ACA1-6C9D5624806A/48/f7010dce/Renderer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SupplyPackage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Azure[Sky] Dynamic Skybox/Scripts/AzureWeatherZone.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Azure[Sky] Dynamic Skybox/Scripts/AzureWeatherController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/GameData/Receipt.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FoodContainer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EditorScripts/AddPedestrianComponents.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -89,23 +91,32 @@
         <option value="$PROJECT_DIR$/Assets/FoodContainer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Car.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DoorScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/LiftButton.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerScript.cs" />
         <option value="$PROJECT_DIR$/Assets/QuickOutline/Scripts/Outline.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Usable.cs" />
         <option value="$PROJECT_DIR$/Assets/GameData/CoffeeData.cs" />
         <option value="$PROJECT_DIR$/Assets/GameData/IngredientData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LiquidParticlesController.cs" />
         <option value="$PROJECT_DIR$/Assets/Resources/GameData/IngredientData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Container.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CoffeeMachine.cs" />
-        <option value="$PROJECT_DIR$/Assets/Resources/GameData/Ingredient.cs" />
         <option value="$PROJECT_DIR$/Assets/Resources/GameData/ReceiptData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Nozzle.cs" />
         <option value="$PROJECT_DIR$/Assets/Resources/GameData/Supply.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SupplyPackage.cs" />
         <option value="$PROJECT_DIR$/Assets/Game.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SupplyContainer.cs" />
+        <option value="$PROJECT_DIR$/Assets/CupScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/GameData/Receipt.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/GameData/Receipts/Espresso.asset" />
+        <option value="$PROJECT_DIR$/Assets/Resources/GameData/Receipts/Cappuccino.asset" />
+        <option value="$PROJECT_DIR$/Assets/Resources/GameData/Ingredient.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Nozzle.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LiftButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Socket.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CoffeeMachine.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Usable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Cup.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SupplyPackage.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Pickable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ItemSocket.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Outliner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerScript.cs" />
       </list>
     </option>
   </component>
@@ -121,7 +132,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor &amp; Play">
@@ -169,6 +180,7 @@
       <workItem from="1627846104250" duration="17904000" />
       <workItem from="1627910397777" duration="786000" />
       <workItem from="1627942735115" duration="8806000" />
+      <workItem from="1628194000822" duration="19586000" />
     </task>
     <servers />
   </component>
@@ -201,14 +213,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="237" y="192" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1626821648364" />
-    <state x="639" y="238" key="SettingsEditor" timestamp="1626741485987">
+    <state x="639" y="238" key="SettingsEditor" timestamp="1628194057943">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="639" y="238" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1626741485987" />
+    <state x="639" y="238" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1628194057943" />
     <state x="154" y="92" width="1674" height="896" key="VCS.FileHistoryDialog" timestamp="1627952205868">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="154" y="92" width="1674" height="896" key="VCS.FileHistoryDialog/62.0.1858.1080@62.0.1858.1080" timestamp="1627952205868" />
+    <state x="360" y="120" width="1200" height="800" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1628194394107">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="360" y="120" width="1200" height="800" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1628194394107" />
     <state x="647" y="250" key="run.anything.popup" timestamp="1627508903350">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>

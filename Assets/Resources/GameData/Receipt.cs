@@ -7,12 +7,12 @@ using UnityEngine;
 public class Receipt : ScriptableObject
 {
     [Serializable]
-    public struct IngredientWithCount
+    public struct IngredientAmount
     {
         public Ingredient ingredient;
         public int ml;
     }
     [SerializeField] private Sprite icon;
 
-    [SerializeField] private IngredientWithCount[] ingredientsWithCount;
+    [SerializeField] private IngredientAmount[] ingredientsAmount;
 }

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LiftButton : Usable {
+public class LiftButton : MonoBehaviour{
     public GameObject lift;
     public int floor;
     /*
